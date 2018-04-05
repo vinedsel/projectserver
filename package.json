@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vinedsel/projectserver/issues"
   },
-  "homepage": "https://github.com/vinedsel/projectserver#readme"
+  "homepage": "https://github.com/vinedsel/projectserver#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
