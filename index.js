@@ -6,9 +6,9 @@ app.post("/", function(req, res) {
   console.log("POST was called.");
 });
 
-app.get("/", function(req, res) {
-  res.send("GET is used to read information.");
-  console.log("GET was called.");
+app.get("/", (req, res) => {
+  console.log(req.headers);
+  res.sendStatus(200);
 });
 
 app.put("/", function(req, res) {
